@@ -1,0 +1,5 @@
+editor = WL.ui.editor()  
+at = editor.getCursor()
+text = e.getLine(at.line)
+last = textstring(at.ch)
+selected = editor.getSelection()
